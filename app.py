@@ -70,21 +70,9 @@ def course_recommender(course_list):
         st.markdown(f"({idx+1}) [{c_name}]({c_link})")
         rec_course.append(c_name)
     return rec_course
-mysql_secrets = secrets["db_credentials"]
 
-host = mysql_secrets["host"]
-port = mysql_secrets["port"]
-database = mysql_secrets["database"]
-username = mysql_secrets["username"]
-password = mysql_secrets["password"]
 
-# Establish the database connection
-connection = pymysql.connect(
-    host=host,
-    user=username,
-    password=password,
-    database=database
-)
+
   
 
 
@@ -94,7 +82,7 @@ cursor = connection.cursor()
 
   
 #connection = pymysql.connect(host=st.secrets.db_credintials.host,user=st.secrets.db_credintials.username, password=st.secrets.db_credintials.password,database=st.secrets.db_credintials.database)
-# connection = pymysql.connect(host="192.168.55.104",user="MBharathi", password="Bharu@1234",database="resume")
+ connection = pymysql.connect(host="223.196.173.71",user="MBharathi", password="Bharu@1234",database="resume")
 #connection = pymysql.connect(**st.secrets.db_credintials)
 
 cursor = connection.cursor()
