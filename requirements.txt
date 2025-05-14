@@ -13,3 +13,4 @@ pymysql
 streamlit-tags
 Pillow
 youtube-dl
+python==3.10
