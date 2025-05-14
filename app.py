@@ -70,7 +70,7 @@ def course_recommender(course_list):
         st.markdown(f"({idx+1}) [{c_name}]({c_link})")
         rec_course.append(c_name)
     return rec_course
-mysql_secrets = st.secrets["db_credentials"]
+mysql_secrets = secrets["db_credentials"]
 
 host = mysql_secrets["host"]
 port = mysql_secrets["port"]
