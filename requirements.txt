@@ -3,12 +3,6 @@ SQLAlchemy==2.0.30
 pdfminer3
 streamlit
 numpy==1.26.4
-cython==3.1.0
-cymem==2.0.11
-preshed==3.0.9
-murmurhash==1.0.12
-thinc==7.4.6
-spacy==2.3.5
 pyresparser
 pandas
 pafy
@@ -17,4 +11,11 @@ pymysql
 streamlit-tags
 Pillow
 youtube-dl
+cython==3.1.0
+cymem==2.0.11
+preshed==3.0.9
+murmurhash==1.0.12
+thinc==7.4.6
+spacy==2.3.5
+
 
