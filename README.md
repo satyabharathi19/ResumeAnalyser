@@ -7,7 +7,7 @@ Machine learning based resume scoring was given to the users.
 Admin can logIn and check the resumes db, analytics dash board also can match the profiles of users for their hirings by mentioning job description.
 
 
-**Feature**
+**Features**
 
 
 Authentication: Secure login for admins.
