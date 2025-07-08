@@ -5,6 +5,8 @@ This project is a Resume Analyzer built with NLTK, Streamlit, Plotly, and a SQL 
 It allows users to view insights about their resumes based on their resume scores, predicted fields, experience levels, recommend coarses and skills.
 Machine learning based resume scoring was given to the users.
 Admin can logIn and check the resumes db, analytics dash board also can match the profiles of users for their hirings by mentioning job description.
+
+
 **Feature**
 
 
