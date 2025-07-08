@@ -12,24 +12,17 @@ Admin can logIn and check the resumes db, analytics dash board also can match th
 
 Authentication: Secure login for admins.
 
-
 Resume Data Upload: Store and process resume information in a SQL database.
-
 
 Profile matching with job: Admin can match the top candidates for their job by specifying job requirements using users resume db.
 
-
 Data Visualization:
-
 
 Pie charts for Predicted Field Recommendations.
 
-
 Pie charts for User Experience Levels.
 
-
 Downloadable Reports: Egxport analyzed resume data as CSV.
-
 
 Real-time Insights: Interactive visualizations powered by Plotly.
 
